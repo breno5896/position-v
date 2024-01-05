@@ -1,0 +1,128 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/
+a {
+    margin: 47px 36px 0 42px;
+    color: #17233D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+}
+
+.a {
+    margin-top: 23px;
+}
+
+.x {
+    position: relative;
+    left: 555px;
+    bottom: 39px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    width: 127px;
+    height: 54px;
+    cursor: pointer;
+}
+
+img {
+    margin: 246px 723px 278px 121px;
+}
+
+.text {
+    margin: 342px 57px 290px 96px;
+    position: relative;
+    bottom: 947px;
+    left: 737px;
+    width: 300px;
+    position: relative;
+    bottom: 1064px;
+}
+
+h2 {
+    color: #161A49;
+    font-family: Poppins;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    /* 132.258% */
+    letter-spacing: 0.596px;
+    width: 500px;
+}
+
+p {
+    color: #4B505A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 500px;
+
+    line-height: 33px;
+    /* 183.333% */
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+}
+
+.y {
+    color: #6FBF44;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    background: #FFF;
+    border: none;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.x:hover {
+    opacity: 0.9;
+}
+
+
+@media screen and (max-width:450px) {
+
+    a {
+        display: none
+    }
+
+    h2 {
+        width: 578px;
+        height: 60px;
+        text-align: center;
+        position: relative;
+    right: 682px;
+    bottom: 343px;
+    
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        text-align: center;
+        position: relative;
+    right: 546px;
+    bottom: 264px;
+    }
+.master{text-align: center;
+display: block;}
+.x{margin: 0 40% 20%;}
+}
