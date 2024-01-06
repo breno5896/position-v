@@ -105,6 +105,11 @@ p {
 
 
 @media screen and (max-width:600px) {
+    #x{text-align: center;
+        width: 100vw;
+    height: 100vh;
+margin: auto 50vw auto 50vw;}
+
 
     .a {
         display: none
@@ -134,10 +139,15 @@ display: block;}
     bottom: -17px;
     position: relative;
     left: 598px;
+    width: 50%;
+    height: 100%;
     }
     .y{position: relative;
         right: 547px;
         bottom: 308px;}
         img{position: relative;
             top: 142px;}
+            #x{text-align: center;
+        width: 100vw;
+    height: 100vh;}
 }
