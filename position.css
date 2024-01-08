@@ -2,6 +2,7 @@
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
+
 }
 
 a {
@@ -105,25 +106,32 @@ p {
 
 
 @media screen and (max-width:450px) {
-    #x{display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 0 auto;
-    }
-    .a{display: none;}
-
-    .text{position: relative;
-        bottom: 1300px;
-        left: 157px;}
-        img{position: relative;
-            top: 367px;}
-            h2{text-align: center;
-                position: relative;
-                right: 81px;}
-            p{width: 304px;
-            text-align: center;}
-            y{position: relative;
-                right: -97px;}
-                .x{    left: 761px;
-                    bottom: -19px;}
+    *{width: auto;
+    
 }
+
+    .a{display: none;}
+.master{ display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+.text{position: relative;
+    bottom: 1341px;
+    left: -42px;
+    text-align: center;
+    }
+    h2{text-align: center;}
+    img{position: relative;
+        position: relative;
+    left: 463px;
+    top: 224px;;}
+    .x{left: 631px;
+        bottom: -7px;}
+        .y{    right: -110px;
+            margin: 50px auto;
+    position: relative;
+        }
+}
+
